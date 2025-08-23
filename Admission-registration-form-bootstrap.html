@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="d-flex justify-content-center align-items-center">
+      <i class="bi bi-brilliance fs-1 mb-5 mt-5 "></i>
+      <h1>XYZ University , London</h1>
+      </div>
+      <h1 class="display-5 text-center text-uppercase fw-bold">
+        Admission Registration Page AY:2025-29
+      </h1>
+    </div>
+
+    <div class="container mt-5">
+      <h2 class="display-8 text-center bg-secondary">Student Details</h2>
+      <div class="form-floating mb-3 mt-5">
+        <div class="form-floating">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingname"
+            placeholder="name"
+          />
+          <label for="floatingname">Full name</label>
+        </div>
+      </div>
+      <div class="form-floating mt-3">
+        <input
+          type="email"
+          class="form-control"
+          id="floatingInput"
+          placeholder="Enter your name"
+        />
+        <label for="floatingInput mt-3">Email</label>
+      </div>
+
+      <div class="form-floating mt-3">
+        <input
+          type="tel"
+          class="form-control"
+          id="floatingmobile"
+          placeholder="mobno"
+        />
+        <label for="floatingmobile">Mobile Number</label>
+      </div>
+      <div class="form-check mt-5 form-check-inline">
+        <h6>Gender:-</h6>
+        <input
+          class="form-check-input"
+          type="radio"
+          name="radioDefault"
+          id="radioDefault1"
+        />
+        <label class="form-check-label" for="radioDefault1"> Male </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="radioDefault"
+          id="radioDefault1"
+        />
+        <label class="form-check-label" for="radioDefault1"> Female </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="radioDefault"
+          id="radioDefault1"
+        />
+        <label class="form-check-label" for="radioDefault1"> Other </label>
+      </div>
+    </div>
+    <hr />
+
+    <div class="container mt-5">
+      <h2 class="display-8 text-center bg-secondary">Parent's Details</h2>
+      <form>
+        <div class="d-flex gap-4 mb-3 mt-5 flex-wrap">
+    <div class="flex-fill">
+      <label for="fatherEmail" class="form-label">Father's Email address</label>
+      <input type="email" class="form-control" id="fatherEmail" placeholder="Please enter email-address">
+      <small class="text-muted">We will never share your email</small>
+    </div>
+    <div class="flex-fill">
+      <label for="fatherMobile" class="form-label">Father's Mobile Number</label>
+      <input type="tel" class="form-control" id="fatherMobile" placeholder="Please enter mobile number">
+    </div>
+  </div>
+        <div class="d-flex gap-4 mb-3 flex-wrap">
+        <div class="flex-fill">
+          <label for="motherEmail" class="form-label">Mother's Email Address</label>
+          <input type="email" class="form-control" id="faherEmail" placeholder="Please enter email-address">
+          <small class="text-muted">We will never share your email</small>
+        </div>
+        <div class="flex-fill">
+          <label for="motherMobile" class="form-label">Mother's Mobile Number</label>
+          <input type="tel" class="form-control" id="motherMobile" placeholder="Please enter mobile number">
+        </div>
+      </div>
+          
+          <br />
+          <hr>
+          </div>
+
+          <div class="container mb-3 mt-5 form-check">
+            <input
+              type="checkbox"
+              id="checkbox"
+              class="form-check-input"
+              required
+            />
+            <label class="form-check-label" for="checkbox"
+              >Check the above information carefully</label
+            >
+          </div>
+          <br />
+          <h2 class="display-8 text-center bg-secondary">Academic Information</h2>
+          <div class="container mb-3 mt-5">
+            <div class="form-check mt-5 mb-5 form-check-inline">
+        <h6>Branch:-</h6>
+        <input
+          class="form-check-input"
+          type="radio"
+          name="branch"
+          id="pcm"
+        />
+        <label class="form-check-label" for="pcm"> PCM </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="branch"
+          id="pcb"
+        />
+        <label class="form-check-label" for="pcb"> PCB </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="branch"
+          id="pcmb"
+        />
+        <label class="form-check-label" for="pcmb"> PCMB </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="branch"
+          id="commerce"
+        />
+        <label class="form-check-label" for="commerce"> Commerce </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="branch"
+          id="arts"
+        />
+        <label class="form-check-label" for="arts"> Arts </label>
+      </div>
+            <div>
+              <label for="projects" class="form-label"
+              >Projects</label
+            >
+            <textarea
+              class="form-control"
+              id="projects"
+              rows="3"
+            ></textarea>
+
+            </div>
+            <br />
+            
+          
+          <div class="mb-3 container">
+            <label for="formFile" class="form-label"
+              >Upload your 10th grade marksheet</label
+            >
+            <input class="form-control" type="file" id="formFile" />
+            <br />
+            <label for="formFile" class="form-label"
+              >Upload your 12th grade marksheet</label
+            >
+            <input class="form-control" type="file" id="formFile" />
+          <br>
+          <select class="form-select" aria-label="Default select example">
+            <option selected disabled>Degree</option>
+            <option value="aiml">B.Tech Artificial Intelligence and Machine Learning</option>
+            <option value="cse">B.Tech Computer Science and Engineering </option>
+            <option value="entc">B.Tech Electronics and Telecommunication</option>
+            <option value="mech">B.Tech Mechanical Engineering</option>
+            <option value="civil">B.Tech Civil Engineering</option>
+            <option value="finance">B.Com Finance</option>
+            <option value="productmng">BBA Product Management</option>
+            <option value="mark">BBA Marketing</option>
+            <option value="it">B.Tech Information Technology</option>
+            <option value="psy">BA Psychology</option>
+            <option value="politicalsci">BA Political Science</option>
+            <option value="homesci">BA Home Science</option>
+            <option value="hotelmng">BA Hotel Management</option>
+          </select>
+          <br>
+        <button class="btn btn-success">Submit</button>
+      </form>
+      
+    </div>
+    </div>
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
