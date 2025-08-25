@@ -6,4 +6,4 @@ Form controls (input, select, textarea, checkbox, radio)
 Bootstrap utilities (spacing, colors, flexbox, typography)
 Buttons & icons to enhance interactivity
 
-Clich here to view the project : https://mansi051.github.io/Admission-registration-form-bootstrap/Admission-registration-form-bootstrap
+Clich here to view the project : https://mansi051.github.io/Admission-registration-form-Bootstrap/Admission-registration-form-bootstrap
